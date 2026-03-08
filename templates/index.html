@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MusicChain</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', path='styles.css') }}">
+</head>
+<body>
+    <main class="main">
+        <div class="hero">
+            <h1>Welcome to MusicChain</h1>
+            <p>This is a simple blockchain audio player application.</p>
+            <p>Please <a href="{{ url_for('login') }}">login</a> or <a href="{{ url_for('register') }}">register</a> to access your wallet.</p>
+        </div>
+    </main>
+</body>
+</html>
